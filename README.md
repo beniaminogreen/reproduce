@@ -24,6 +24,8 @@ This frees you up to focus on the important parts of research, and gives
 confidence that your calculations are always based on the up-to-date figures
 from upstream.
 
+### Dependency Chart for the Example Project
+
 ![Dependency chart for the example project](dependency_flowchart.png)
 
 ## Replication With Docker
