@@ -1,0 +1,29 @@
+---
+title: Replication Archive
+author: Beniamino Green
+output: pdf_document
+urlcolor: blue
+link_citations: true
+---
+
+# Introduction
+
+```{r load_libraries}
+# Loads the libraries used in the analysis into memory
+library(tidyverse)
+```
+
+```{r read_data}
+# Reads in cars dataset
+data <- read_csv("data/cars.csv")
+```
+
+```{r plot_data}
+# Plots data from cars dataset
+data %>%
+    ggplot(aes(x=speed, y=dist)) +
+    geom_point() +
+    geom_smooth(method = "lm")
+```
+
+
