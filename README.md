@@ -26,7 +26,9 @@ from upstream.
 
 ### Dependency Chart for the Example Project
 
-![Dependency chart for the example project](dependency_flowchart.png)
+<p align="center">
+  <img src="https://github.com/beniaminogreen/reproduce/blob/main/dependency_flowchart.png" />
+</p>
 
 ## Replication With Docker
 
