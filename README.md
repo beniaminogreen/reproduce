@@ -28,7 +28,7 @@ Make achieves this by expressing the network of file dependencies in a project
 with a system of rules.  As an example, the files in this example repository
 depend on each other in the following way:
 
-### Dependency Chart for the Example Project:
+#### Dependency Chart for the Example Project:
 
 <p align="center">
   <img src="https://github.com/beniaminogreen/reproduce/blob/main/dependency_flowchart.png" />
@@ -54,8 +54,9 @@ document.pdf: document.Rmd ./data/cars.csv
 
 ```
 
+### More Make Information
 These resources give more information and tips on using make to manage data
-analysis
+analysis:
 
 1. [The Plain Person's Guide to Plain Text Social Science](https://plain-text.co/pull-it-together.html) by Kieran Healy
 2. [Minimal Make](https://kbroman.org/minimal_make/) by Karl Broman
@@ -74,13 +75,13 @@ docker build -t reproduce .
 Then, depending on your operating system, start the docker container in one of
 two ways:
 
-### Using Linux / Mac / Windows Power Shell:
+#### Using Linux / Mac / Windows Power Shell:
 
 ```
 docker run --rm -v ${PWD}:/opt/reproduce reproduce
 ```
 
-### Using Windows Command Line:
+#### Using Windows Command Line:
 ```
 docker run --rm -v  %cd%:/opt/reproduce reproduce
 ```
